@@ -61,7 +61,7 @@ describe "#translate" do
   end
 
   it "translates many words" do
-    s = translate("the quick brown fox")
+    s = translate("the quick brown fox") 
     expect(s).to eq("ethay ickquay ownbray oxfay")
   end
 
