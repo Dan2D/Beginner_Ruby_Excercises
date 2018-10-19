@@ -22,7 +22,6 @@ end
 #books.title(arg)
 =end
 
-#POS KEEPS RETURNING NIL, I TESTED IT AND THE CODE WORKS, BUT THE DAM SPEC KEEPS RETURNING NIL
 class Book
 attr_reader :title
     
